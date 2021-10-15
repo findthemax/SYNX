@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "SYNX",
+    "slug": "synx",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/backgrounds/*.jpg",
+      "assets/images/spotify/*.png",
+      "assets/logo/*.png"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.2tm.synx",
+      "buildNumber": "1.0.9",
+      "config" : {
+        "googleMobileAdsAppId": "ca-app-pub-1809508522702632~8032165310"
+      }
+    },
+    "android": {
+      "package": "com.apphapi.synx",
+      "versionCode": 9,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "config" : {
+        "googleMobileAdsAppId" : "ca-app-pub-1809508522702632~5412567376"
+      }
+    },
+    "scheme" : "synx"
+  }
+}
